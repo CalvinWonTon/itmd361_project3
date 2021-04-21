@@ -1,0 +1,196 @@
+#main-header{
+    background: #ffc578; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffc578 0%, #fb9d23 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffc578 0%,#fb9d23 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffc578 0%,#fb9d23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#596a72', endColorstr='#cedce7',GradientType=0 ); /* IE6-9 */
+    height: 80px;
+}
+
+#main-navbar{
+    background-color:  #0ABAB5;;
+    overflow: hidden;
+}
+
+#navbar-container{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+/* index.html */
+#main-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+#main-navbar li{
+    float: left;
+    position: relative;
+    right: 50%;
+    display: block; 
+}
+
+#main-navbar ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#main-navbar a:hover{
+    background-color: orange;
+}
+
+#webpage-name{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: auto;
+    position: absolute;
+    display:block;
+    margin-left: 15px;
+}
+
+
+#header-container{
+    position: relative;
+
+}
+
+#onpage{
+    text-decoration: underline;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.container ul{
+    list-style-type: square;
+}
+
+.description-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+#description{
+    margin-left: 5px;
+}
+
+#description p {
+    font-size: 18px;
+}
+
+#image img{
+    border-radius: 50%;
+    padding: 5px;
+}
+
+iframe{
+    width: 640px;
+    height: 360px;
+}
+
+body{
+    background-color: beige;
+    font-family: 'Playfair Display', serif;
+}
+
+.information{
+    padding: 20px;
+}
+
+#contact-info{
+    margin-right: 5px;
+}
+
+a{
+    color: darkorange;
+}
+
+
+/* hobbies.html */
+.contain{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.polaroid {
+    width: 80%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid img, .polaroid iframe{
+    border-radius: 5%;
+}
+
+/* anime.html */
+.anime-container{
+    width: 50%;
+    margin-left: 25%;
+    background-color: lightgray;
+    padding:2%;
+    text-align: center;
+}
+
+.anime-container img, .anime-container iframe{
+    width: 65%;
+    display: block;
+    margin:0 auto;
+    border-radius: 5%;
+}
+
+.anime-container h3, .anime-container h1{
+    text-align: center;
+}
+
+.anime-grid{
+    display: grid;
+    padding: 10px;
+    background-color: lightseagreen;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+}
+
+.anime-item{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+
+#footer-container{
+    height: 80px;
+    background: #fb9d23; /* Old browsers */
+    background: -moz-linear-gradient(top, #fb9d23 0%, #ffc578 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fb9d23 0%,#ffc578 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fb9d23 0%,#ffc578 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb9d23', endColorstr='#ffc578',GradientType=0 ); /* IE6-9 */
+    clear: left;
+}
+
+
+#footer{
+    padding:15px;
+}
+
