@@ -9,7 +9,7 @@
 }
 
 #main-navbar{
-    background-color:  #0ABAB5;;
+    background-color:  #0ABAB5;
     overflow: hidden;
 }
 
@@ -70,7 +70,7 @@
     width: 960px;
     margin: 0 auto;
     overflow: hidden;
-    background-color: lightgray;
+    background-color: #F7F7FF;
 }
 
 .container ul{
@@ -81,7 +81,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cadetblue;
+    background-color: lightgray;
 }
 
 #description{
@@ -103,7 +103,7 @@ iframe{
 }
 
 body{
-    background-color: beige;
+    background-color: gray;
     font-family: 'Playfair Display', serif;
 }
 
@@ -204,4 +204,43 @@ html, body {
 
 #footer{
     padding:15px;
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        font-family: 'Karla', sans-serif;
+        background-color: #8ACDEA;
+    }
+
+    #main-navbar{
+        background-color: #EDE6F2;
+    }
+
+    #main-header{
+        background: #746D75;
+        color: white;
+    }
+
+    #footer-container{
+        background:#746D75;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    body{
+        background-color: #3F826D;
+    }
+
+    #main-navbar{
+        background-color: #F2D0A4;
+    }
+
+    #main-header{
+        background: #545E75;
+        color: white;
+    }
+    
+    #footer-container{
+        background-color: #545E75;
+    }
 }
