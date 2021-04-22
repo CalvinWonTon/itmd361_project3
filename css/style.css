@@ -178,6 +178,18 @@ a{
     background-color: lightblue;
 }
 
+/* google api */
+#map {
+    height: 80%;
+    width: 75%;
+    margin: auto;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 #footer-container{
     height: 80px;
@@ -193,4 +205,3 @@ a{
 #footer{
     padding:15px;
 }
-
